@@ -1,0 +1,301 @@
+*{
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.logo{
+    width: 6em;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    color: white;
+    overflow-x: hidden;
+}
+
+.picture{                   
+   display: flex;
+   align-items: flex-end;
+   justify-items: end;
+   width: 100vw;
+}
+
+.make{
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.left{
+    display: block;
+    margin-bottom: 1em;
+}
+
+html{
+   scroll-behavior:smooth; 
+}
+
+a{
+    color:inherit;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    justify-items: center;
+    align-items:flex-end;
+    position:fixed;
+    top: 0px;
+    background-color: inherit;
+    z-index: 10;
+    width: 100vw;
+}
+
+.btn-primary:hover{
+color: white;
+}
+
+.btn-close{
+    float: right;
+}
+
+.name-text{
+    font-size: 5em;
+    font-weight: 700;
+}
+
+.sect:hover{
+    color: rgb(3, 120, 255);
+}
+
+.dropdown-item:hover{
+     color: rgb(3, 120, 255);
+}
+
+nav ul{
+display: flex;
+gap:5vw ;
+}
+
+section{
+    max-width: 100vw;
+}
+
+
+nav ul li a{
+    color: inherit;
+    text-decoration: none;
+} 
+
+.btn-primary{
+    background:transparent;
+    text-decoration: none;
+    color: inherit;
+}
+
+.card{
+    background: rgb(3, 120, 255);
+    border-radius: 10px;
+    min-width: 25vw;
+}
+
+.home-cards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 5px;
+}
+.hide{
+    align-items:center;
+    justify-content:space-evenly;
+    display: flex;
+}
+
+.war{
+    border: none;
+}
+
+
+.about{
+     font-size: 3em;
+     color: rgb(13, 213, 220);
+     font-weight: 700;
+}
+
+.skillz{
+    display: block;
+    margin-bottom: 1em;
+    font-size: 2em;
+}
+
+.skills{
+    display: block;
+    margin-bottom: 1em;
+}
+
+.margin{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: block;
+}
+
+.button{
+    margin: auto;
+}
+
+.logom{
+    margin-left:6em ;
+    margin-bottom: 1em;
+    background: transparent;
+}
+
+.percentage{
+    width: 80%;
+    margin: auto;
+    border-radius: 20px;
+    background-color: rgb(164, 164, 164);
+    height: .5em;
+    margin-bottom: 1em;
+
+}
+
+.form{
+    display: flex;
+    flex-direction:column;
+}
+
+.form input{
+    margin-bottom: 1em;
+    background: transparent;
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 2em;
+}
+
+.form textarea{
+    background:transparent;
+    margin-bottom: 1em;
+    border: 1px solid gray;
+    border-radius: 5px;
+} 
+
+.form button{
+    background-color: transparent;
+    color: inherit;
+    border: 1px solid rgb(3, 120, 255);
+    width: 7em;
+    align-self: center;
+    border-radius: 5px;
+}
+
+.form button:hover{
+    background-color: rgb(3, 120, 255);
+    color: inherit;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap:1em;
+    column-gap:1em;
+    max-width: 99vw;
+}
+
+.grid-item{
+    background-color: rgb(3, 120, 255);
+    margin-bottom: 1em;
+    color:inherit;
+    border-radius: 10px;
+}
+
+.grid-item ul li{
+    list-style-type: disc;
+}
+
+.grid-item img{
+    width: 4em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+.fa-mobile{
+  margin-right: 1em;
+}
+
+.fa-envelope{
+   margin-right: 1em;
+}
+
+.fa-location-dot{
+   margin-right: 1em;
+}
+
+.fa-whatsapp{
+    margin-right:1em;
+}
+
+.fa-link{
+    margin-right: 1em;
+}
+
+footer{
+    color: gray;
+}
+
+.card ul li{
+    list-style-type: disc;
+    
+}
+
+.services-card{
+    background: rgb(3, 120, 255);
+    color: inherit;
+    margin-bottom: 1em;
+    min-width: 250px;
+}
+
+.grid-container{
+   display: grid;
+   gap: 1em;
+}
+
+.grid-item{
+    background: rgb(3, 120, 255);
+    color: inherit;
+    margin-left: 15px;
+}
+
+.services{
+    color: gray;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+@media (max-width:480px) {
+   .sect{
+    display: none;
+   }
+   .fa-grip-lines-vertical{
+    display: none;
+   }
+   .dist{
+    display:block;
+   }
+}
+
+@media (max-width:850px) {
+    .sect{
+    display: none;
+   }}
+   
+   .fa-grip-lines-vertical{
+    display: none;
+   }
+   .dist{
+    display:block;
+   }
+   .grid-container{
+    display: block;
+   }
