@@ -143,6 +143,11 @@ nav ul li a{
     display: block;
 }
 
+.mypp:hover{
+    transform: scale(1.05);
+    filter:contrast(90%);
+}
+
 .button{
     margin: auto;
 }
